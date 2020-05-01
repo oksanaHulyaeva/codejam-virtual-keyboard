@@ -49,7 +49,15 @@ textarea {
     color: rgba(22, 176, 80, 1);
 }
 
-.key-style, .alt, .caps, .shift, .tab, .enter, .ctrl, .space, .backspace {
+.key-style,
+.alt,
+.caps,
+.shift,
+.tab,
+.enter,
+.ctrl,
+.space,
+.backspace {
     display: inline-block;
     background-color: rgba(22, 176, 80, .5);
     border-radius: 5px;
@@ -62,11 +70,13 @@ textarea {
     padding-top: 1rem;
 }
 
-.key-style, .alt {
+.key-style,
+.alt {
     width: 4.5rem;
 }
 
-.caps, .backspace {
+.caps,
+.backspace {
     width: 10rem;
 }
 
